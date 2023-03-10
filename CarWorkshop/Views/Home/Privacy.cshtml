@@ -1,7 +1,11 @@
-﻿@{
+﻿@model List<Person>
+
+@{
     ViewData["Title"] = "Privacy Policy";
     var currentYear = DateTime.Now.Year;
     var DayOfWeek = DateTime.Now.DayOfWeek;
+    var email = "adrian@bsd-net.pl";
+
 }
 <h1>@ViewData["Title"]</h1>
 
@@ -18,4 +22,13 @@
 else{
     <p>A Normal day puuuuu</p>
 }
+
+@email
+
+@foreach(var person in Model) 
+{
+ <p>@person.FirstName</p>
+ <p>@person.LastName</p>
+}
+
 

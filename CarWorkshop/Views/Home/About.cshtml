@@ -1,0 +1,26 @@
+﻿@model List<Person>
+
+@{
+    ViewData["Title"] = "About";
+}
+<div class="alert alert-danger">@ViewData["Title"]</div>
+
+
+@foreach (var person in Model) {
+    <p>@person.FirstName</p>
+    <p>@person.LastName</p>
+}
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-sm border">
+            Column
+        </div>
+        <div class="col-sm border">
+            Column
+        </div>
+        <div class="col-sm border">
+            Column
+        </div>
+    </div>
+</div>

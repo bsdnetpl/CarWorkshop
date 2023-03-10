@@ -18,9 +18,38 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult About() {
+        var model = new List<Person>()
+       {
+            new Person()
+            {
+                FirstName = "Adrian",
+                LastName = "Urzędncizek"
+            },
+            new Person()
+            {
+                FirstName = "Antek",
+                LastName = "Urzędncizek"
+            },
+        };
+        return View(model);
+    }
     public IActionResult Privacy()
     {
-        return View();
+        var model = new List<Person>()
+        {
+            new Person() 
+            {
+                FirstName = "Adrian",
+                LastName = "Urzędncizek"
+            },
+            new Person() 
+            {
+                FirstName = "Antek",
+                LastName = "Urzędncizek"
+            },
+        };
+        return View(model);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
