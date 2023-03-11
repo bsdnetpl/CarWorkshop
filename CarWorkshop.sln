@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWorkshop", "CarWorkshop\CarWorkshop.csproj", "{AED499B4-46CA-4B4E-9E2A-CCD133245EFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWorkshop.Domain", "CarWorkshop.Dmian\CarWorkshop.Domain.csproj", "{99729052-EEEA-48E4-8BB6-D51B1319A5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWorkshop.Application", "CarWorkshop.Application\CarWorkshop.Application.csproj", "{7208B4E2-8EB7-4E59-8FFC-39D4D9C1FB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWorkshop.infrastructure", "CarWorkshop.infrastructure\CarWorkshop.infrastructure.csproj", "{613C2775-68EB-44E6-818D-78F1ADEEB36E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,23 @@ Global
 		{AED499B4-46CA-4B4E-9E2A-CCD133245EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED499B4-46CA-4B4E-9E2A-CCD133245EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED499B4-46CA-4B4E-9E2A-CCD133245EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99729052-EEEA-48E4-8BB6-D51B1319A5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99729052-EEEA-48E4-8BB6-D51B1319A5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99729052-EEEA-48E4-8BB6-D51B1319A5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99729052-EEEA-48E4-8BB6-D51B1319A5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7208B4E2-8EB7-4E59-8FFC-39D4D9C1FB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7208B4E2-8EB7-4E59-8FFC-39D4D9C1FB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7208B4E2-8EB7-4E59-8FFC-39D4D9C1FB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7208B4E2-8EB7-4E59-8FFC-39D4D9C1FB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613C2775-68EB-44E6-818D-78F1ADEEB36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613C2775-68EB-44E6-818D-78F1ADEEB36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613C2775-68EB-44E6-818D-78F1ADEEB36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613C2775-68EB-44E6-818D-78F1ADEEB36E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B175B5A-B1E4-4834-8AD3-DD65E73642EA}
 	EndGlobalSection
 EndGlobal
